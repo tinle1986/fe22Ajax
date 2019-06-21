@@ -2,6 +2,10 @@ $(document).ready(function () {
     var nguoiDungService = new NguoiDungService();
     var validation = new Validation();
 
+    function themNguoiDung() {
+        console.log("themNguoiDung02");
+    }
+
     // lay danh sach nguoi dung + luu localStorage
     getDanhSachNguoiDung();
 
