@@ -3,7 +3,7 @@ $(document).ready(function () {
     var validation = new Validation();
 
     function themNguoiDung() {
-        console.log("themNguoiDung");
+        console.log("themNguoiDung02");
     }
 
     // lay danh sach nguoi dung + luu localStorage
