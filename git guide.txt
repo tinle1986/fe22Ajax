@@ -1,0 +1,7 @@
+. kiem tra trang thai
+git status
+. cau hinh thong so git
+git config --global user.name "tinle1986"	// ten gi cung duoc
+git config --global user.email "letrungtin1986@gmail.com"	// email luc dang ky account git
+. day source di qua 3 vung: working copy -> staging area -> local repository -> git server
+git add .
