@@ -15,6 +15,9 @@ git branch
 git branch ANY_NAME_USER
 . chuyen qua branch khac
 git checkout BRANCH_NAME
+<<<<<<< HEAD
 . download source moi nhat tu git server
 git pull
 
+=======
+>>>>>>> 8b0b8d4d9f3f482c60f07cba9b00be21ab66cceb
