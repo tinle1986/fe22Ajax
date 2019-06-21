@@ -1,7 +1,17 @@
 . kiem tra trang thai
 git status
+// neu mau do: dang o working copy
 . cau hinh thong so git
 git config --global user.name "tinle1986"	// ten gi cung duoc
 git config --global user.email "letrungtin1986@gmail.com"	// email luc dang ky account git
 . day source di qua 3 vung: working copy -> staging area -> local repository -> git server
-git add .
+git add .	// day source qua staging area
+// neu mau xanh, dang o vung staging area
+git commit -m "upload source code"	// day source sang local repository, -m la ghi chu noi dung gi cung duoc
+git push origin master		// day source len server git
+. kiem tra co bao nhieu branches?
+git branch
+. tao 1 nhanh voi ten bat ki
+git branch ANY_NAME_USER
+. chuyen qua branch khac
+git checkout BRANCH_NAME
